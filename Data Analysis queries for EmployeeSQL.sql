@@ -97,7 +97,7 @@ on d.dept_no = m.dept_no
 where d.dept_name = 'Development';
 
 
--- List the frequency counts, in descending order, of all employee last names (that is, how many employees share each last name)
+-- Task 8. List the frequency counts, in descending order, of all employee last names (that is, how many employees share each last name)
 
 select e.last_name as "last name", count(*) as count
 from employees as e
