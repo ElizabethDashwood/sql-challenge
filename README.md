@@ -16,5 +16,13 @@ This challenge has 1 project called: EmployeeSQL using 6 starter code csv files 
 ### Installations required: 
 This project required the installation of PostgreSQL 16 with pg4Admin on Windows
 
-### Executing Homework Challenge Requirements:
-TO BE UPDATED Please see pandas-challenge/PyCitySchools/PyCitySchools_Final.ipynb for the script which performs all requirements of the project.
+### Executing Challenge 9 Requirements:
+For the Data Modelling exercise, the Quick DataBase Diagrams application (Reference: https://app.quickdatabasediagrams.com/#/d/RNoZZZ) was used to contruct the Entitle Relationship Diagram and associated schema.  
+See the files named **QuickDBD-EmployeeSQL ERD Challenge 9** and **QuickDBD-EmployeeSQL Field List - Challenge 9** for the results of this exercise
+
+For the Data Engineering exercise, Postgres 16 pg4admin was used to create the tables, and load the data to each table from the 6 starter code csv files mentioned above.  These starter files are located in the EmployeeSQL folder in this repository.
+See the file named **Data Engineering - created tables and loaded csv data files** for the results of this exercise
+
+For the Data Analysis exercise, Postgres 16 pg4admin was used to create the queries that provide the data result for the 8 task questions. 
+See the file named ** Data Anslysis for EmployeeSQL for the queries resulting from this exercise
+NOTE:  To test and validate the results of these queries, I did also create views and do many counts of rows within results.  These views and queries for counts are not required to be submitted, so have not been included in this repository.
